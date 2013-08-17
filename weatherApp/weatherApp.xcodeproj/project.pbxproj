@@ -24,6 +24,8 @@
 		BC6059EE17BEB5B00039D920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6059C617BEB5B00039D920 /* Foundation.framework */; };
 		BC6059F617BEB5B00039D920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6059F417BEB5B00039D920 /* InfoPlist.strings */; };
 		BC6059F917BEB5B00039D920 /* weatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6059F817BEB5B00039D920 /* weatherAppTests.m */; };
+		BC605A0517BEBEB10039D920 /* CurrentForcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC605A0317BEBEB10039D920 /* CurrentForcastViewController.m */; };
+		BC605A0617BEBEB10039D920 /* CurrentForcastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC605A0417BEBEB10039D920 /* CurrentForcastViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		BC6059F517BEB5B00039D920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC6059F717BEB5B00039D920 /* weatherAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weatherAppTests.h; sourceTree = "<group>"; };
 		BC6059F817BEB5B00039D920 /* weatherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherAppTests.m; sourceTree = "<group>"; };
+		BC605A0217BEBEB10039D920 /* CurrentForcastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentForcastViewController.h; sourceTree = "<group>"; };
+		BC605A0317BEBEB10039D920 /* CurrentForcastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentForcastViewController.m; sourceTree = "<group>"; };
+		BC605A0417BEBEB10039D920 /* CurrentForcastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentForcastViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				BC6059D417BEB5B00039D920 /* AppDelegate.m */,
 				BC6059DC17BEB5B00039D920 /* ViewController.h */,
 				BC6059DD17BEB5B00039D920 /* ViewController.m */,
+				BC605A0217BEBEB10039D920 /* CurrentForcastViewController.h */,
+				BC605A0317BEBEB10039D920 /* CurrentForcastViewController.m */,
+				BC605A0417BEBEB10039D920 /* CurrentForcastViewController.xib */,
 				BC6059DF17BEB5B00039D920 /* ViewController_iPhone.xib */,
 				BC6059E217BEB5B00039D920 /* ViewController_iPad.xib */,
 				BC6059CB17BEB5B00039D920 /* Supporting Files */,
@@ -240,6 +248,7 @@
 				BC6059DB17BEB5B00039D920 /* Default-568h@2x.png in Resources */,
 				BC6059E117BEB5B00039D920 /* ViewController_iPhone.xib in Resources */,
 				BC6059E417BEB5B00039D920 /* ViewController_iPad.xib in Resources */,
+				BC605A0617BEBEB10039D920 /* CurrentForcastViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 				BC6059D117BEB5B00039D920 /* main.m in Sources */,
 				BC6059D517BEB5B00039D920 /* AppDelegate.m in Sources */,
 				BC6059DE17BEB5B00039D920 /* ViewController.m in Sources */,
+				BC605A0517BEBEB10039D920 /* CurrentForcastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

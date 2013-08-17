@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *highTemp;
 @property (weak, nonatomic) IBOutlet UILabel *lowTemp;
 @property (weak, nonatomic) IBOutlet UILabel *humidity;
+@property (weak, nonatomic) IBOutlet UILabel *currentTemp;
 
--(id)initWithCityName:(NSString *)cityName highTemp:(NSString *)highTemp lowTemp:(NSString *)lowTemp humidity:(NSString *)humidity;
+-(id)initWithCityName:(NSString *)cityName currentTemp:(NSString *)currentTemp highTemp:(NSString *)highTemp lowTemp:(NSString *)lowTemp humidity:(NSString *)humidity;
 @end
